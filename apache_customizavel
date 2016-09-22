@@ -1,0 +1,9 @@
+#Filtros para log customizavel do apache
+#filtros apache sti log formatado
+DATA_APACHE_RAFAEL ^\[[0-9][0-9]/[a-zA-Z]{3}/[0-9]{4}(:?[0-9][0-9]){3}\s\-[0-9]{4}\]
+IP_APACHE_RAFAEL ([0-9]{1,3}\.?){4}
+VERSAO_HTTP_RAFAEL [A-Z]*/[0-9]\.[0-9]
+NUMERO_APACHE_RAFAEL [0-9]*
+METODO_APACHE_RAFAEL [A-Z]*
+URL_APACHE_RAFAEL /[_\-a-zA-Z0-9\./]*
+DOMINIO_APACHE_RAFAEL ([a-zA-Z]|\.)*
