@@ -1,0 +1,10 @@
+MES_DATA (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b
+DIA_DATA [0-9]{1,2}\b
+HORARIO_DATA [0-9][0-9]:[0-9][0-9]:[0-9][0-9]\b
+SERVIDOR_LOG [a-zA-Z0-9-]*\b
+TIPO_LOG [a-zA-Z0-9-_]*\b
+MESSAGE_AUDIT [a-zA-Z0-9.:]*
+PID_NUMBER [0-9]*\b
+SUBJECT_LOG [-a-zA-Z0-9_:.]*\b
+ARQUIVO [a-zA-Z0-9/]*
+ALL .*
