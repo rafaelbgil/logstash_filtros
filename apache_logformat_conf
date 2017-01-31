@@ -1,2 +1,2 @@
 #Formato de novo filtro de log no apache
-LogFormat "%t %h %H %T %m %v %U %s" rafael
+LogFormat "%t %h %H %T %m %v %U %s \"%{User-agent}i\"" rafael
