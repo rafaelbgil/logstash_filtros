@@ -1,0 +1,4 @@
+Personalização avançada na exibição de campo
+
+{ "script" : "doc['grade'].value * 1.2" }
+https://www.elastic.co/guide/en/kibana/6.0/metric-chart.html
