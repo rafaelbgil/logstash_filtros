@@ -1,0 +1,10 @@
+filtros:
+
+JBOSS_DATA ([0-9]|:|,|\.)*
+JBOSS_NIVEL [A-Z]*\b
+JBOSS_CLASSE [a-zA-Z0-9\._-]*
+JBOSS_RECURSO \(.*\)
+JBOSS_MENSAGEM .*
+
+logstash config 
+%{JBOSS_DATA:jboss.data} %{JBOSS_NIVEL:jboss.nivel}  \[%{JBOSS_CLASSE:jboss.classe}\] %{JBOSS_RECURSO:jboss.recurso} %{JBOSS_MENSAGEM:jboss.mensagem}
