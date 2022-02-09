@@ -1,0 +1,1 @@
+Link útil a respeito do formato de log do 3scale https://github.com/3scale/apisonator/blob/2319aeff1b2893c8a77895f034f704b11049261c/lib/3scale/backend/logging/middleware/text_writer.rb#L10-L31
