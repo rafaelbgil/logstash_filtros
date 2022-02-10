@@ -1,4 +1,4 @@
 POD [a-zA-Z0-9-]*
 SERVICE [a-zA-Z0-9-]*[a-zA-Z0-9]
 ALL .*
-SCALE_URI [a-zA-Z0-9,\._/\:\%\=\\\?-]*
+SCALE_URI [a-zA-Z0-9,\._/\:\%\=\\\?\+-]*
